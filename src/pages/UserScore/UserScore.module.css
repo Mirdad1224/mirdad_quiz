@@ -1,0 +1,37 @@
+.score{
+    width: 100%;
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.scoreImage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scoreImage img{
+    width: 90%;
+    height: 90%;
+    border-radius: 1rem;
+}
+
+.result{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 850px){
+    .score{
+        flex-direction: column-reverse;
+    }
+    .result{
+        justify-content: flex-start;
+        
+    }
+}

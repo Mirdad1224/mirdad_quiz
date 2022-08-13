@@ -1,0 +1,19 @@
+.navbar {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #6190e8;
+  background: -webkit-linear-gradient(to right, #a7bfe8, #6190e8);
+  background: linear-gradient(to right, #a7bfe8, #6190e8);
+}
+
+.navbar img {
+  width: 3rem;
+  height: 3rem;
+  margin: 0 1rem 0 2rem;
+}

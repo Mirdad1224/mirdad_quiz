@@ -1,0 +1,33 @@
+.home{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.settingImage{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.settingImage img{
+    width: 80%;
+    border-radius: 1rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 0 2rem;
+}
+
+
+@media screen and (max-width: 768px) {
+    .home{
+        grid-template-columns: 1fr;
+    }
+}

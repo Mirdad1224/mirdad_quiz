@@ -1,0 +1,14 @@
+.notFound{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.notFound img{
+    width: 50%;
+    height: 50%;
+}
